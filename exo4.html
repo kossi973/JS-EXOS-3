@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+	<meta charset="utf-8">
+    <title>Formulaire contact</title>
+   </head>
+</head>
+<body>
+    <h1>CONTACT :</h1>
+    <form id="frmContact" action="merci.html">
+        <div>
+            <label for="lastName">Nom*</label>
+            <input type="text" name="lastName" id="lastName"  placeholder="Votre nom">
+        </div>   
+        <div>
+            <label for="firstName">Prénom*</label>
+            <input type="text" name="firstName" id="firstName"  placeholder="Votre prénom">
+        </div>
+        <div>
+            <label for="birthDay">Date de naissance*</label>
+            <input type="date" name="birthDay" id="birthDay"  placeholder="Date de naissance">
+        </div>
+        <div>
+            <label for="birthPlace">Lieu de naissance*</label>
+            <input type="text" name="birthPlace" id="birthPlace"  placeholder="Lieu de naissance">
+        </div>
+        <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email"  placeholder="******@*****.***">
+        </div>
+        <div>
+            <label for="telephone">Téléphone</label>
+            <input type="tel" name="telephone" id="telephone" maxlength="15" placeholder="N° de telephone">
+        </div>
+        <div>
+           <button type="submit">Envoyer</button>  
+        </div>
+        <p id="userMsg"></p>
+           
+    </form> 
+    <script src="exo4.js"></script>
+</body>
+</html>
+
